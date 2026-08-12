@@ -1,30 +1,68 @@
 # 🌷 Educação Financeira para Mulheres: Autonomia e Planejamento
 
-> **Projeto prático — DIO | Inteligência Artificial Generativa + NotebookLM**
+> **Projeto prático — DIO | Inteligência Artificial Generativa + NotebookLM + Engenharia de Prompts**
+
+![Status](https://img.shields.io/badge/status-concluído-success)
+![IA](https://img.shields.io/badge/IA-NotebookLM-blue)
+![GitHub](https://img.shields.io/badge/GitHub-README-black)
+![Markdown](https://img.shields.io/badge/linguagem-Markdown-purple)
+
+---
 
 ## 📌 Sobre o projeto
 
-Este projeto foi desenvolvido como parte de um desafio da **DIO**, com o objetivo de utilizar a Inteligência Artificial Generativa como ferramenta de **aprendizagem ativa**.
+Este projeto foi desenvolvido como parte de um **Desafio de Projeto da DIO**, com o objetivo de utilizar a **Inteligência Artificial Generativa como ferramenta de aprendizagem ativa**.
 
-A proposta consiste na criação de um caderno temático no **NotebookLM**, utilizando fontes abertas sobre educação financeira, seguido da elaboração, teste e aprimoramento de prompts para explorar o conteúdo de maneira estruturada.
+A proposta consiste na criação de um **Caderno Temático no NotebookLM**, utilizando fontes abertas e selecionadas sobre um determinado assunto, seguido da elaboração, teste e aprimoramento de prompts para explorar, organizar e revisar o conhecimento.
 
 O tema escolhido foi:
 
 > **Educação Financeira para Mulheres: Autonomia e Planejamento**
 
-A escolha do tema parte da importância do conhecimento financeiro para a tomada de decisões mais conscientes sobre consumo, planejamento, poupança, proteção e investimentos.
+A escolha do tema está relacionada à importância do conhecimento financeiro para a tomada de decisões mais conscientes sobre **consumo, planejamento, poupança, proteção, investimentos e definição de objetivos**.
 
-O projeto não tem como objetivo oferecer recomendações individuais de investimentos. O foco é **educacional**, buscando organizar conceitos financeiros introdutórios e demonstrar como a IA pode auxiliar no processo de aprendizagem.
+O projeto possui caráter **educacional** e não tem como objetivo oferecer recomendações individuais de investimentos ou indicar produtos financeiros específicos.
+
+O foco está em demonstrar como a Inteligência Artificial pode apoiar o processo de aprendizagem quando utilizada em conjunto com:
+
+* curadoria de fontes;
+* engenharia de prompts;
+* análise crítica;
+* verificação de informações;
+* organização do conhecimento;
+* aprendizagem ativa.
 
 ---
 
-## 🎯 Objetivos
+## 🗂️ Estrutura do projeto
 
-### Objetivo geral
+Este README está organizado nas seguintes etapas:
 
-Utilizar o NotebookLM como ferramenta de aprendizagem ativa para estudar conceitos fundamentais de educação financeira, desenvolvendo um miniguia estruturado a partir de fontes selecionadas.
+1. [Contexto e objetivos](#-sobre-o-projeto)
+2. [Objetivos](#-objetivos)
+3. [Curadoria das fontes](#-1-curadoria-das-fontes)
+4. [Uso do NotebookLM](#-2-uso-do-notebooklm)
+5. [Engenharia de prompts e cicatrizes](#-3-engenharia-de-prompts-e-cicatrizes)
+6. [Miniguia de estudo](#-4-miniguia-de-estudo)
+7. [Glossário](#-5-glossário)
+8. [Prompts reutilizáveis](#-6-prompts-reutilizáveis)
+9. [Limitações e aprendizados](#-7-limitações-e-aprendizados)
+10. [Evolução dos prompts](#-8-evolução-dos-prompts)
+11. [Modelo conceitual](#-9-modelo-conceitual-do-aprendizado)
+12. [Principais aprendizados](#-10-principais-aprendizados)
+13. [Conclusão](#-11-conclusão)
+14. [Referências](#-12-referências)
+15. [Tecnologias e ferramentas](#️-tecnologias-e-ferramentas-utilizadas)
 
-### Objetivos específicos
+---
+
+# 🎯 Objetivos
+
+## Objetivo geral
+
+Utilizar o **NotebookLM como ferramenta de aprendizagem ativa** para estudar conceitos fundamentais de educação financeira, desenvolvendo um miniguia estruturado a partir de fontes selecionadas.
+
+## Objetivos específicos
 
 * Compreender os fundamentos da educação financeira;
 * Entender o papel do planejamento financeiro pessoal;
@@ -36,30 +74,42 @@ Utilizar o NotebookLM como ferramenta de aprendizagem ativa para estudar conceit
 * Desenvolver e testar diferentes estratégias de prompting;
 * Avaliar criticamente as respostas produzidas pela IA;
 * Identificar limitações e inconsistências nas respostas;
-* Criar prompts reutilizáveis para futuras revisões.
+* Verificar a rastreabilidade das informações;
+* Criar prompts reutilizáveis para futuras revisões;
+* Utilizar a IA como apoio à aprendizagem, e não como substituta do pensamento crítico.
 
 ---
 
 # 📚 1. Curadoria das fontes
 
-Inicialmente, foram consideradas **10 fontes** para o caderno do NotebookLM.
+A primeira etapa do projeto consistiu na seleção de materiais que pudessem fornecer uma base confiável para o estudo de educação financeira.
 
-Após analisar a relevância e a relação de cada material com o objetivo do projeto, foi realizada uma etapa de curadoria.
+Inicialmente, foram consideradas diferentes possibilidades de fontes. Após analisar a relevância e a relação dos materiais com os objetivos do projeto, foi realizada uma etapa de curadoria.
 
-A intenção era trabalhar com um conjunto final de cinco fontes. Entretanto, durante a etapa de rastreabilidade, o próprio NotebookLM identificou que **quatro documentos principais estavam efetivamente disponíveis no caderno**.
+Durante a utilização do NotebookLM, entretanto, foi identificada uma diferença entre a quantidade de fontes inicialmente planejada e os documentos efetivamente reconhecidos pelo caderno.
 
-Essa inconsistência foi registrada como parte das "cicatrizes" do projeto, em vez de ser ocultada.
+Essa inconsistência foi **registrada como parte das “cicatrizes” do projeto**, em vez de ser ocultada.
 
-### Fontes efetivamente identificadas pelo NotebookLM
+## Fontes efetivamente identificadas no NotebookLM
 
-| Fonte                                                              | Utilização no projeto                                                               |
+| Fonte                                                              | Principal utilização                                                                |
 | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
 | **Caderno de Educação Financeira — Banco Central do Brasil (BCB)** | Educação financeira, planejamento, orçamento, sonhos, metas, investimentos e riscos |
-| **Guia de Planejamento — CVM (2014)**                              | Planejamento financeiro, objetivos e organização das finanças                       |
+| **Guia de Planejamento Financeiro — CVM (2014)**                   | Planejamento financeiro, objetivos e organização das finanças                       |
 | **Introdução aos Investimentos — CVM (2018)**                      | Investimentos, risco, retorno, liquidez, perfil e diversificação                    |
-| **Artigo da Serasa sobre inflação**                                | Inflação e impacto sobre o poder de compra                                          |
+| **Conteúdo da Serasa sobre inflação**                              | Inflação e seus impactos sobre o poder de compra                                    |
 
-> **Observação:** durante o desenvolvimento, uma quinta fonte sobre diversificação havia sido considerada na curadoria inicial, porém ela não apareceu entre os quatro documentos efetivamente reconhecidos pelo NotebookLM na etapa de rastreabilidade. Por isso, o projeto não apresenta essa fonte como se tivesse sido utilizada nas respostas finais.
+### 🔎 Observação sobre a curadoria
+
+Durante o desenvolvimento, uma quinta fonte relacionada à diversificação havia sido considerada na curadoria inicial.
+
+Entretanto, ela **não apareceu entre os documentos efetivamente reconhecidos pelo NotebookLM** durante a etapa de rastreabilidade.
+
+Por esse motivo, ela não foi apresentada neste README como uma fonte efetivamente utilizada nas respostas finais.
+
+Esse episódio foi importante para demonstrar uma etapa essencial do trabalho com IA:
+
+> **Não basta planejar quais fontes serão utilizadas. É necessário verificar quais fontes realmente estão disponíveis e sustentando as respostas.**
 
 ---
 
@@ -67,14 +117,16 @@ Essa inconsistência foi registrada como parte das "cicatrizes" do projeto, em v
 
 O NotebookLM foi utilizado como um ambiente de estudo baseado nas fontes selecionadas.
 
-O processo foi dividido em etapas:
+A IA não foi utilizada apenas para produzir um texto final. O processo envolveu perguntas, análise das respostas, reformulação dos prompts, identificação de limitações e verificação da relação entre as respostas e as fontes.
+
+## 🔄 Fluxo de trabalho
 
 ```text
 Curadoria das fontes
         ↓
 Criação do caderno no NotebookLM
         ↓
-Prompt inicial
+Elaboração do prompt inicial
         ↓
 Análise da resposta
         ↓
@@ -84,69 +136,96 @@ Verificação de rastreabilidade
         ↓
 Exploração de novos conceitos
         ↓
-Consolidação do miniguia
+Identificação de limitações
+        ↓
+Consolidação do conhecimento
+        ↓
+Miniguia de estudo
 ```
 
-A IA não foi utilizada apenas para gerar um texto final. As respostas foram analisadas, comparadas e utilizadas como base para novos prompts.
+Esse processo permitiu transformar o NotebookLM em uma ferramenta de **aprendizagem ativa**, na qual cada resposta servia como ponto de partida para uma nova investigação.
 
 ---
 
-# 🧠 3. Engenharia de Prompts e "Cicatrizes"
+# 🧠 3. Engenharia de Prompts e “Cicatrizes”
 
 Uma das principais etapas do projeto foi testar diferentes formas de interação com o NotebookLM.
 
-O objetivo foi observar como alterações nas instruções poderiam melhorar a estrutura, a precisão e a utilidade das respostas.
+O objetivo foi observar como alterações nas instruções poderiam melhorar:
+
+* estrutura;
+* clareza;
+* profundidade;
+* finalidade didática;
+* rastreabilidade;
+* utilização das fontes;
+* identificação de limitações.
+
+As dificuldades encontradas durante o processo também foram documentadas.
 
 ---
 
 ## 3.1 Prompt 1 — Visão geral da educação financeira
 
-### Objetivo
+### 🎯 Objetivo
 
-Obter uma visão geral do assunto, partindo dos conceitos básicos e chegando aos investimentos e à autonomia financeira.
+Obter uma visão geral do assunto, partindo dos conceitos básicos e avançando até investimentos e autonomia financeira.
 
 ### Prompt utilizado
 
-> Com base exclusivamente nas 5 fontes fornecidas, apresente uma visão geral sobre educação financeira.
->
-> Organize a resposta de forma didática, partindo dos conceitos mais básicos para os mais avançados.
->
-> Identifique:
->
-> 1. O que é educação financeira;
-> 2. Quais são os principais conceitos apresentados nas fontes;
-> 3. Como planejamento financeiro, orçamento, inflação, investimentos e diversificação se relacionam;
-> 4. Por que esses conhecimentos podem contribuir para uma maior autonomia na tomada de decisões financeiras.
->
-> Utilize linguagem clara, adequada para uma pessoa que está iniciando seus estudos.
->
-> Não acrescente informações que não estejam presentes nas fontes.
-> Ao apresentar cada conceito, indique qual ou quais fontes o sustentam.
+```text
+Com base exclusivamente nas fontes disponíveis no caderno, apresente uma visão geral sobre educação financeira.
 
-### Resultado
+Organize a resposta de forma didática, partindo dos conceitos mais básicos para os mais avançados.
+
+Identifique:
+
+- O que é educação financeira;
+- Quais são os principais conceitos apresentados nas fontes;
+- Como planejamento financeiro, orçamento, inflação, investimentos e diversificação se relacionam;
+- Por que esses conhecimentos podem contribuir para uma maior autonomia na tomada de decisões financeiras.
+
+Utilize linguagem clara, adequada para uma pessoa que está iniciando seus estudos.
+
+Não acrescente informações que não estejam presentes nas fontes. Ao apresentar cada conceito, indique qual ou quais fontes o sustentam.
+```
+
+### 📌 Resultado
 
 O NotebookLM organizou o conteúdo em quatro grandes blocos:
 
-* Relação com o dinheiro;
-* Gestão financeira;
-* Inflação e juros;
-* Investimentos e proteção.
+1. Relação com o dinheiro;
+2. Gestão financeira;
+3. Inflação e juros;
+4. Investimentos e proteção.
 
-A resposta também estabeleceu a relação:
+A resposta também estabeleceu uma relação geral:
 
-**Planejamento → orçamento → poupança → proteção → investimento → realização de objetivos.**
+```text
+Planejamento
+      ↓
+Orçamento
+      ↓
+Poupança
+      ↓
+Proteção
+      ↓
+Investimento
+      ↓
+Realização de objetivos
+```
 
 ---
 
-# 3.2 Prompt 2 — Planejamento financeiro e autonomia
+## 3.2 Prompt 2 — Planejamento financeiro e autonomia
 
-### Objetivo
+### 🎯 Objetivo
 
-Aprofundar o conceito de planejamento financeiro pessoal e sua relação com autonomia.
+Aprofundar o conceito de planejamento financeiro pessoal e compreender sua relação com autonomia.
 
-### Resultado
+### 📌 Resultado
 
-O NotebookLM apresentou:
+O NotebookLM apresentou conceitos relacionados a:
 
 * definição de planejamento financeiro;
 * objetivos do planejamento;
@@ -160,11 +239,11 @@ A resposta mostrou que o planejamento pode ser entendido como um processo que tr
 
 ---
 
-# 3.3 Aprimoramento do prompt
+## 3.3 Aprimoramento do prompt
 
-Após analisar a primeira resposta, foi criada uma versão mais estruturada.
+Após analisar a primeira resposta, foi criada uma versão mais estruturada dos comandos.
 
-O novo prompt solicitava:
+O novo prompt passou a solicitar:
 
 * sequência lógica;
 * definições curtas;
@@ -175,67 +254,76 @@ O novo prompt solicitava:
 
 ### Por que o prompt foi aprimorado?
 
-A primeira resposta era adequada, mas poderia ser mais útil como material de estudo.
+A primeira resposta era útil, porém poderia ser mais adequada para um material de estudo.
 
 A nova versão passou a controlar melhor:
 
-* estrutura;
-* extensão;
-* finalidade didática;
-* rastreabilidade;
-* utilização exclusiva das fontes.
+| Aspecto         | Melhoria                                     |
+| --------------- | -------------------------------------------- |
+| Estrutura       | Organização por tópicos                      |
+| Extensão        | Respostas mais direcionadas                  |
+| Finalidade      | Maior foco didático                          |
+| Rastreabilidade | Solicitação explícita das fontes             |
+| Confiabilidade  | Identificação de informações não sustentadas |
 
-### Resultado
+### 🩹 Cicatriz encontrada
 
-A segunda resposta apresentou uma organização mais adequada para um guia introdutório.
+Mesmo com a solicitação explícita de referências, algumas respostas apresentaram campos como:
 
-Porém, surgiu um novo problema:
+```text
+Fontes:
+```
 
-> As referências solicitadas apareciam como "Fontes:" sem o preenchimento adequado.
+sem o preenchimento adequado.
 
-Esse problema foi registrado como uma **cicatriz de engenharia de prompt**.
+Isso demonstrou que **pedir uma referência no prompt não garante, por si só, que a saída estará corretamente referenciada**.
+
+Foi necessário realizar uma nova etapa de verificação.
 
 ---
 
-# 🩹 3.4 Prompt de rastreabilidade
+# 🔎 3.4 Prompt de rastreabilidade
 
-Para tentar solucionar o problema das referências, foi criado um prompt específico solicitando:
+### 🎯 Objetivo
+
+Verificar quais informações estavam realmente sustentadas pelos documentos disponíveis.
+
+O prompt solicitava:
 
 * identificação das fontes;
 * diferenciação entre informação direta e conclusão;
 * identificação de limitações;
-* tabela de rastreabilidade.
+* criação de uma tabela de rastreabilidade.
 
-### Descoberta importante
+### 🔍 Descoberta importante
 
-Durante essa etapa, o NotebookLM informou:
+Durante essa etapa, o NotebookLM informou que os materiais disponíveis consistiam em **quatro documentos principais**.
 
-> "os materiais fornecidos consistem em quatro documentos principais"
+Isso revelou a diferença entre a curadoria inicialmente planejada e as fontes efetivamente disponíveis no caderno.
 
-Isso revelou uma inconsistência entre a curadoria planejada e as fontes efetivamente disponíveis no caderno.
+### 💡 Aprendizado
 
-### Aprendizado
+Essa etapa reforçou um dos principais aprendizados do projeto:
 
-A IA não deve ser tratada como uma fonte de verdade automática.
+> **A IA não deve ser tratada como uma fonte de verdade automática.**
 
 É necessário verificar:
 
 * quais fontes realmente estão disponíveis;
 * se a resposta está apoiada nas fontes;
 * se os dados apresentados são verificáveis;
-* se a referência indicada corresponde ao conteúdo.
-
-Essa etapa foi importante para demonstrar **pensamento crítico no uso de IA**.
+* se a referência indicada corresponde ao conteúdo;
+* se determinada conclusão está explicitamente presente ou foi inferida.
 
 ---
 
-# 3.5 Prompt 4 — Inflação e poder de compra
+# 📈 3.5 Prompt 4 — Inflação e poder de compra
 
-### Objetivo
+### 🎯 Objetivo
 
 Relacionar inflação, poder de compra e planejamento financeiro.
 
-### Principais conceitos obtidos
+### Principais conceitos explorados
 
 * inflação;
 * perda do poder de compra;
@@ -244,26 +332,28 @@ Relacionar inflação, poder de compra e planejamento financeiro.
 * relação entre inflação, poupança e investimentos;
 * importância da revisão periódica do planejamento.
 
-### Cicatriz encontrada
+### 🩹 Cicatriz encontrada
 
 A resposta apresentou alguns dados e afirmações quantitativas ou específicas que exigiriam verificação antes de serem incorporados ao material definitivo.
 
-Exemplos:
+Entre os exemplos estavam:
 
 * valores históricos;
 * inflação acumulada;
 * exemplos específicos de preços;
 * relações entre inflação e taxa de juros.
 
-### Aprendizado
+### 💡 Aprendizado
 
 Informações quantitativas devem ser verificadas antes de serem utilizadas em um material educacional.
 
+Uma resposta pode parecer convincente e ainda assim exigir validação.
+
 ---
 
-# 3.6 Prompt 5 — Investimentos
+# 💰 3.6 Prompt 5 — Investimentos
 
-### Objetivo
+### 🎯 Objetivo
 
 Compreender os principais fundamentos dos investimentos sem transformar o projeto em uma recomendação de produtos financeiros.
 
@@ -279,15 +369,23 @@ Compreender os principais fundamentos dos investimentos sem transformar o projet
 * objetivos de curto, médio e longo prazo;
 * cuidados para iniciantes.
 
-### Resultado
+### 📌 Resultado
 
-O NotebookLM conseguiu estabelecer a seguinte relação:
+O NotebookLM conseguiu estabelecer uma relação conceitual entre:
 
-**Poupança → investimento → rentabilidade**
+```text
+Poupança
+   ↓
+Investimento
+   ↓
+Rentabilidade
+```
 
 considerando simultaneamente:
 
-**risco + liquidez + perfil do investidor**
+```text
+Risco + Liquidez + Perfil do investidor
+```
 
 e relacionando esses fatores aos objetivos financeiros.
 
@@ -297,9 +395,11 @@ e relacionando esses fatores aos objetivos financeiros.
 
 ## 4.1 Educação financeira
 
-A educação financeira envolve conhecimentos e comportamentos que auxiliam as pessoas a tomar decisões mais conscientes sobre consumo, poupança, investimento e proteção.
+A educação financeira envolve conhecimentos e comportamentos que auxiliam as pessoas a tomar decisões mais conscientes sobre **consumo, poupança, investimento e proteção**.
 
-Ela não se limita a saber quanto dinheiro uma pessoa possui. Também envolve compreender como as decisões tomadas hoje podem afetar sua situação financeira no futuro.
+Ela não se limita a saber quanto dinheiro uma pessoa possui.
+
+Também envolve compreender como as decisões tomadas hoje podem afetar sua situação financeira no futuro.
 
 ---
 
@@ -324,7 +424,7 @@ O planejamento transforma objetivos abstratos em ações que podem ser acompanha
 
 O orçamento é uma das principais ferramentas de planejamento financeiro.
 
-Ele permite registrar:
+Ele permite acompanhar:
 
 * receitas;
 * despesas;
@@ -333,19 +433,19 @@ Ele permite registrar:
 
 A partir desse acompanhamento, é possível identificar três situações básicas:
 
-| Situação          | Característica                |
-| ----------------- | ----------------------------- |
-| **Superavitária** | Receitas maiores que despesas |
-| **Neutra**        | Receitas iguais às despesas   |
-| **Deficitária**   | Despesas maiores que receitas |
+| Situação         | Característica                |
+| ---------------- | ----------------------------- |
+| 🟢 Superavitária | Receitas maiores que despesas |
+| 🟡 Neutra        | Receitas iguais às despesas   |
+| 🔴 Deficitária   | Despesas maiores que receitas |
 
-O objetivo do controle orçamentário é permitir maior consciência sobre a utilização dos recursos.
+O objetivo do controle orçamentário é proporcionar maior consciência sobre a utilização dos recursos.
 
 ---
 
 ## 4.4 Necessidades, desejos, sonhos, projetos e metas
 
-Esses conceitos ajudam a organizar prioridades.
+Esses conceitos ajudam a organizar prioridades financeiras.
 
 ### Necessidade
 
@@ -372,7 +472,7 @@ Esses conceitos ajudam a organizar prioridades.
 * etapas;
 * quantidade a ser poupada.
 
-Uma forma simples de visualizar:
+### Relação entre os conceitos
 
 ```text
 DESEJO
@@ -390,7 +490,7 @@ REALIZAÇÃO
 
 ---
 
-# 4.5 Inflação e poder de compra
+## 4.5 Inflação e poder de compra
 
 Inflação é o aumento persistente e generalizado dos preços de bens e serviços.
 
@@ -404,11 +504,11 @@ A inflação também demonstra por que simplesmente guardar dinheiro não é suf
 
 ---
 
-# 4.6 Investimentos
+## 4.6 Investimentos
 
 Investir significa aplicar recursos poupados com expectativa de obter uma remuneração futura.
 
-A relação pode ser representada assim:
+Uma representação simplificada é:
 
 ```text
 Receitas
@@ -426,15 +526,20 @@ Possível remuneração
 Objetivos financeiros
 ```
 
-Investimento e planejamento estão relacionados porque o recurso investido deve estar associado a um objetivo, prazo e nível de risco compatível.
+Investimento e planejamento estão relacionados porque o recurso investido deve estar associado a:
+
+* objetivo;
+* prazo;
+* nível de risco compatível;
+* necessidade de liquidez.
 
 ---
 
-# 4.7 Rentabilidade
+## 4.7 Rentabilidade
 
 Rentabilidade representa o retorno ou remuneração obtida sobre um capital aplicado.
 
-É importante lembrar que rentabilidade passada não garante que o mesmo resultado será obtido no futuro.
+É importante lembrar que **rentabilidade passada não garante que o mesmo resultado será obtido no futuro**.
 
 Ao analisar um investimento, a rentabilidade deve ser considerada juntamente com outros fatores, principalmente:
 
@@ -445,7 +550,7 @@ Ao analisar um investimento, a rentabilidade deve ser considerada juntamente com
 
 ---
 
-# 4.8 Risco
+## 4.8 Risco
 
 Risco representa a possibilidade de o resultado de um investimento ser diferente do esperado, incluindo a possibilidade de perdas.
 
@@ -456,11 +561,13 @@ Entre os tipos abordados nas fontes estão:
 * riscos operacionais;
 * riscos legais.
 
-O risco não deve ser analisado isoladamente. Ele precisa ser relacionado ao objetivo e ao perfil do investidor.
+O risco não deve ser analisado isoladamente.
+
+Ele precisa ser relacionado ao objetivo, ao prazo e ao perfil do investidor.
 
 ---
 
-# 4.9 Liquidez
+## 4.9 Liquidez
 
 Liquidez representa a facilidade e rapidez com que um investimento pode ser convertido em dinheiro.
 
@@ -473,41 +580,49 @@ A liquidez é especialmente relevante quando existe necessidade de acesso rápid
 
 ---
 
-# 4.10 Perfil de investidor
+## 4.10 Perfil de investidor
 
 O perfil de investidor está relacionado à capacidade e à disposição de assumir riscos.
 
 Uma classificação introdutória pode considerar:
 
-| Perfil          | Característica geral                                   |
-| --------------- | ------------------------------------------------------ |
-| **Conservador** | Maior preocupação com segurança                        |
-| **Moderado**    | Busca equilíbrio entre segurança e retorno             |
-| **Arrojado**    | Aceita maior risco em busca de maior retorno potencial |
+| Perfil      | Característica geral                                   |
+| ----------- | ------------------------------------------------------ |
+| Conservador | Maior preocupação com segurança                        |
+| Moderado    | Busca equilíbrio entre segurança e retorno             |
+| Arrojado    | Aceita maior risco em busca de maior retorno potencial |
 
-O perfil não deve ser utilizado isoladamente para escolher um investimento. Objetivos, prazo, situação financeira e características do produto também precisam ser considerados.
+O perfil não deve ser utilizado isoladamente para escolher um investimento.
+
+Também devem ser considerados:
+
+* objetivos;
+* prazo;
+* situação financeira;
+* características do produto;
+* necessidade de liquidez.
 
 ---
 
-# 4.11 Diversificação
+## 4.11 Diversificação
 
 Diversificação é a distribuição dos recursos entre diferentes investimentos ou classes de ativos.
 
 Seu objetivo é reduzir a exposição a riscos específicos.
 
-Uma forma simples de entender:
+Uma forma simples de entender é:
 
 > **Não concentrar todo o patrimônio em uma única alternativa.**
 
-A diversificação pode ajudar a reduzir determinados riscos, mas não elimina todos os riscos existentes no mercado.
+A diversificação pode ajudar a reduzir determinados riscos, mas **não elimina todos os riscos existentes no mercado**.
 
 ---
 
-# 4.12 Autonomia financeira
+## 4.12 Autonomia financeira
 
 A autonomia financeira está relacionada à capacidade de tomar decisões conscientes sobre o próprio dinheiro.
 
-Conhecimento financeiro pode ajudar a pessoa a:
+O conhecimento financeiro pode ajudar a pessoa a:
 
 * avaliar melhor suas escolhas;
 * evitar decisões impulsivas;
@@ -516,7 +631,7 @@ Conhecimento financeiro pode ajudar a pessoa a:
 * planejar objetivos;
 * analisar propostas financeiras com maior criticidade.
 
-Assim, a educação financeira não significa simplesmente "ter mais dinheiro", mas desenvolver conhecimento para utilizar os recursos de maneira mais consciente.
+Assim, educação financeira não significa simplesmente **“ter mais dinheiro”**, mas desenvolver conhecimento para utilizar os recursos de maneira mais consciente.
 
 ---
 
@@ -545,14 +660,17 @@ Assim, a educação financeira não significa simplesmente "ter mais dinheiro", 
 
 # ♻️ 6. Prompts reutilizáveis
 
-Os prompts abaixo podem ser utilizados em futuras revisões ou adaptados para outros assuntos.
+Os prompts abaixo foram desenvolvidos para serem utilizados em futuras revisões ou adaptados para outros assuntos.
 
-### Prompt 1 — Resumo
+---
+
+## Prompt 1 — Resumo
 
 ```text
 Com base exclusivamente nas fontes disponíveis, resuma [TEMA] em linguagem adequada para iniciantes.
 
 Organize a resposta em:
+
 1. Definição;
 2. Principais conceitos;
 3. Exemplos;
@@ -562,12 +680,15 @@ Organize a resposta em:
 Indique as fontes utilizadas e não acrescente informações externas.
 ```
 
-### Prompt 2 — Comparação
+---
+
+## Prompt 2 — Comparação
 
 ```text
 Compare [CONCEITO A] e [CONCEITO B] utilizando exclusivamente as fontes disponíveis.
 
 Apresente:
+
 - definição;
 - características;
 - diferenças;
@@ -578,12 +699,15 @@ Apresente:
 Ao final, indique as fontes utilizadas.
 ```
 
-### Prompt 3 — Revisão para prova
+---
+
+## Prompt 3 — Revisão para prova
 
 ```text
 Com base exclusivamente nas fontes disponíveis, crie uma revisão de [TEMA] para uma pessoa iniciante.
 
 Apresente:
+
 - 10 conceitos fundamentais;
 - 10 perguntas de revisão;
 - respostas comentadas;
@@ -592,20 +716,27 @@ Apresente:
 Indique as fontes utilizadas.
 ```
 
-### Prompt 4 — Auditoria de fontes
+---
+
+## Prompt 4 — Auditoria de fontes
 
 ```text
 Analise a resposta apresentada e identifique quais informações estão diretamente sustentadas pelas fontes.
 
 Separe:
+
 1. Informações diretamente encontradas;
 2. Conclusões derivadas das fontes;
 3. Informações que não podem ser confirmadas pelas fontes.
 
 Para cada conceito, indique a fonte correspondente.
+
+Não considere uma informação como confirmada apenas porque ela aparece na resposta anterior.
 ```
 
-### Prompt 5 — Aprendizagem ativa
+---
+
+## Prompt 5 — Aprendizagem ativa
 
 ```text
 Atue como tutor de [TEMA].
@@ -613,6 +744,7 @@ Atue como tutor de [TEMA].
 Faça uma pergunta por vez para testar meu conhecimento.
 
 Após cada resposta:
+
 - diga se minha resposta está correta;
 - explique o motivo;
 - corrija possíveis erros;
@@ -621,7 +753,9 @@ Após cada resposta:
 Não avance para a próxima pergunta até concluir a análise da resposta anterior.
 ```
 
-### Prompt 6 — Explicação simples
+---
+
+## Prompt 6 — Explicação simples
 
 ```text
 Explique [CONCEITO] como se eu estivesse estudando o assunto pela primeira vez.
@@ -629,6 +763,7 @@ Explique [CONCEITO] como se eu estivesse estudando o assunto pela primeira vez.
 Utilize apenas as fontes disponíveis.
 
 Apresente:
+
 - definição simples;
 - exemplo prático;
 - relação com o planejamento financeiro;
@@ -642,41 +777,53 @@ Indique a fonte utilizada.
 
 # 🩹 7. Limitações e aprendizados
 
-O desenvolvimento do projeto mostrou que utilizar IA para estudar não significa aceitar automaticamente tudo que a ferramenta apresenta.
+O desenvolvimento do projeto mostrou que utilizar IA para estudar **não significa aceitar automaticamente tudo o que a ferramenta apresenta**.
 
 Algumas limitações foram identificadas durante os testes.
 
-### 7.1 Inconsistência na quantidade de fontes
+---
 
-A curadoria inicialmente previa cinco fontes, porém o NotebookLM posteriormente identificou quatro documentos principais efetivamente disponíveis.
+## 7.1 Inconsistência na quantidade de fontes
 
-**Aprendizado:** verificar se as fontes planejadas estão realmente presentes no caderno.
+A curadoria inicialmente considerava uma quantidade maior de materiais, porém o NotebookLM posteriormente identificou **quatro documentos principais efetivamente disponíveis**.
+
+### Aprendizado
+
+É necessário verificar se as fontes planejadas estão realmente presentes no caderno antes de considerar que uma resposta está baseada nelas.
 
 ---
 
-### 7.2 Referências incompletas
+## 7.2 Referências incompletas
 
 Algumas respostas apresentaram campos como:
 
-> "Fontes:"
+```text
+Fontes:
+```
 
 sem indicar corretamente a referência correspondente.
 
-**Aprendizado:** pedir referências não garante que elas serão apresentadas de maneira adequada. A saída precisa ser verificada.
+### Aprendizado
+
+Solicitar referências no prompt não garante que elas serão apresentadas de maneira adequada.
+
+A saída precisa ser analisada e confrontada com as fontes.
 
 ---
 
-### 7.3 Informações específicas precisam de validação
+## 7.3 Informações específicas precisam de validação
 
 Algumas respostas apresentaram valores históricos, exemplos numéricos e relações econômicas específicas.
 
 Mesmo quando uma resposta parece convincente, informações quantitativas ou afirmações muito específicas devem ser verificadas antes de serem utilizadas no material final.
 
-**Aprendizado:** a IA deve ser utilizada como ferramenta de apoio à análise, e não como substituta da verificação das fontes.
+### Aprendizado
+
+A IA deve ser utilizada como **ferramenta de apoio à análise**, e não como substituta da verificação das fontes.
 
 ---
 
-### 7.4 Iteração dos prompts
+## 7.4 Iteração dos prompts
 
 Os primeiros prompts produziram respostas úteis, mas as versões posteriores apresentaram maior controle sobre:
 
@@ -687,7 +834,11 @@ Os primeiros prompts produziram respostas úteis, mas as versões posteriores ap
 * rastreabilidade;
 * finalidade didática.
 
-**Aprendizado:** a qualidade da interação com a IA depende também da qualidade das instruções fornecidas.
+### Aprendizado
+
+A qualidade da interação com a IA depende também da qualidade das instruções fornecidas.
+
+Um prompt mais específico tende a produzir uma resposta mais adequada ao objetivo proposto.
 
 ---
 
@@ -701,6 +852,26 @@ Os primeiros prompts produziram respostas úteis, mas as versões posteriores ap
 | Prompt de rastreabilidade  | Verificar fontes                   | Identificação de limitações e inconsistências |
 | Prompt sobre inflação      | Relacionar economia e planejamento | Ampliação do conteúdo conceitual              |
 | Prompt sobre investimentos | Estudar risco, retorno e liquidez  | Consolidação do eixo de investimentos         |
+
+### 🔄 Evolução geral
+
+```text
+Pergunta ampla
+      ↓
+Resposta inicial
+      ↓
+Análise crítica
+      ↓
+Identificação de problemas
+      ↓
+Prompt mais específico
+      ↓
+Resposta aprimorada
+      ↓
+Verificação das fontes
+      ↓
+Consolidação do conhecimento
+```
 
 ---
 
@@ -739,31 +910,85 @@ A principal relação construída durante o estudo pode ser representada da segu
                            AUTONOMIA FINANCEIRA
 ```
 
-A inflação atravessa esse processo porque pode afetar o poder de compra e o valor necessário para alcançar objetivos futuros.
+A **inflação** atravessa esse processo porque pode afetar o poder de compra e o valor necessário para alcançar objetivos futuros.
 
 ---
 
-# 📝 10. Conclusão
+# 💡 10. Principais aprendizados
 
-O desenvolvimento deste projeto demonstrou que a Inteligência Artificial Generativa pode atuar como uma ferramenta de aprendizagem ativa quando utilizada de maneira estruturada e crítica.
+Ao final do projeto, alguns aprendizados se destacaram.
+
+### 1. Educação financeira vai além de investimentos
+
+O estudo mostrou que educação financeira começa pela compreensão da própria situação financeira, passa pelo planejamento e orçamento e pode chegar à análise de investimentos.
+
+### 2. Planejamento transforma objetivos em ações
+
+Um desejo ou sonho pode se tornar um projeto e, posteriormente, uma meta quando passa a considerar fatores como valor, prazo e etapas.
+
+### 3. Investimentos não devem ser analisados isoladamente
+
+Rentabilidade, risco e liquidez precisam ser considerados em conjunto e relacionados aos objetivos e ao perfil do investidor.
+
+### 4. A inflação interfere no planejamento
+
+O poder de compra pode mudar ao longo do tempo, tornando importante considerar a inflação em objetivos financeiros de médio e longo prazo.
+
+### 5. A qualidade do prompt influencia a resposta
+
+Prompts mais específicos permitiram obter respostas mais estruturadas e adequadas ao objetivo de estudo.
+
+### 6. A IA precisa ser questionada
+
+Uma resposta aparentemente correta não deve ser aceita automaticamente.
+
+É necessário verificar as fontes, identificar possíveis inferências e questionar informações que não estejam claramente sustentadas.
+
+### 7. As “cicatrizes” fazem parte do processo
+
+Erros, respostas incompletas e inconsistências também são fontes de aprendizado.
+
+Documentar esses problemas ajuda a compreender melhor as limitações da ferramenta e aprimorar o processo.
+
+---
+
+# 📝 11. Conclusão
+
+O desenvolvimento deste projeto demonstrou que a **Inteligência Artificial Generativa pode atuar como uma ferramenta de aprendizagem ativa quando utilizada de maneira estruturada e crítica**.
 
 O NotebookLM possibilitou reunir fontes, formular perguntas, organizar conceitos e explorar relações entre diferentes temas da educação financeira.
 
-Entretanto, o processo também mostrou que uma resposta gerada por IA não deve ser aceita automaticamente.
+Entretanto, o processo também mostrou que uma resposta gerada por IA **não deve ser aceita automaticamente**.
 
-A qualidade do resultado depende de três elementos principais:
+A qualidade do resultado depende da combinação de três elementos principais:
 
-**Curadoria das fontes + Engenharia de prompts + Pensamento crítico**
+```text
+CURADORIA DAS FONTES
+          +
+ENGENHARIA DE PROMPTS
+          +
+PENSAMENTO CRÍTICO
+          ↓
+     APRENDIZAGEM
+```
 
-A evolução dos prompts permitiu transformar perguntas gerais em solicitações mais estruturadas, com maior preocupação com fontes, rastreabilidade e limitações.
+A evolução dos prompts permitiu transformar perguntas gerais em solicitações mais estruturadas, com maior preocupação com:
 
-O principal aprendizado foi perceber que a IA pode acelerar a organização e exploração do conhecimento, mas a responsabilidade pela análise das informações continua sendo do estudante.
+* fontes;
+* rastreabilidade;
+* organização;
+* finalidade didática;
+* limitações.
 
-Dessa forma, o projeto alcançou seu objetivo de utilizar a IA não apenas para gerar respostas, mas como **ferramenta de investigação, revisão, organização e aprendizagem**.
+O principal aprendizado foi perceber que a IA pode acelerar a **organização, exploração e revisão do conhecimento**, mas a responsabilidade pela análise das informações continua sendo do estudante.
+
+Dessa forma, o projeto alcançou seu objetivo de utilizar a IA não apenas para gerar respostas, mas como ferramenta de:
+
+> **investigação + revisão + organização + análise crítica + aprendizagem.**
 
 ---
 
-# 📚 11. Referências
+# 📚 12. Referências
 
 As referências abaixo correspondem aos materiais identificados durante a utilização do NotebookLM:
 
@@ -772,21 +997,39 @@ As referências abaixo correspondem aos materiais identificados durante a utiliz
 * **Comissão de Valores Mobiliários — Introdução aos Investimentos, 2018.**
 * **Serasa — conteúdo sobre inflação e seus impactos sobre o poder de compra.**
 
-> As respostas utilizadas durante o desenvolvimento foram produzidas pelo NotebookLM a partir das fontes inseridas no caderno. As informações foram analisadas criticamente e não foram tratadas automaticamente como verdade apenas por terem sido apresentadas pela IA.
+As respostas utilizadas durante o desenvolvimento foram produzidas pelo NotebookLM a partir das fontes inseridas no caderno.
+
+As informações foram analisadas criticamente e não foram tratadas automaticamente como verdade apenas por terem sido apresentadas pela IA.
+
+> **Observação:** as fontes foram utilizadas como base de estudo dentro do NotebookLM. Informações quantitativas ou afirmações específicas que exigiriam atualização ou validação adicional não foram tratadas como fatos definitivos sem verificação.
 
 ---
 
-## 🛠️ Tecnologias e ferramentas utilizadas
+# 🛠️ Tecnologias e ferramentas utilizadas
 
-* 🤖 Inteligência Artificial Generativa
-* 📚 NotebookLM
-* 🐙 GitHub
-* 📝 Markdown
+| Ferramenta                                | Utilização                                                          |
+| ----------------------------------------- | ------------------------------------------------------------------- |
+| 🤖 **NotebookLM**                         | Organização das fontes, exploração do conteúdo e aprendizagem ativa |
+| 🧠 **Inteligência Artificial Generativa** | Formulação, análise e refinamento de respostas                      |
+| ✍️ **Engenharia de Prompts**              | Criação e aprimoramento das instruções                              |
+| 📚 **Fontes abertas**                     | Base documental para o estudo                                       |
+| 🐙 **GitHub**                             | Versionamento e publicação do projeto                               |
+| 📝 **Markdown**                           | Documentação do projeto                                             |
 
 ---
 
-## 👩‍💻 Projeto
+# 👩‍💻 Projeto
 
-**Educação Financeira para Mulheres: Autonomia e Planejamento**
+**Tema:** Educação Financeira para Mulheres: Autonomia e Planejamento
 
-Projeto desenvolvido para demonstrar o uso da Inteligência Artificial como ferramenta de aprendizagem ativa, combinando curadoria de fontes, engenharia de prompts, análise crítica e organização do conhecimento.
+**Objetivo:** demonstrar o uso da Inteligência Artificial como ferramenta de aprendizagem ativa por meio de curadoria de fontes, engenharia de prompts, análise crítica e organização do conhecimento.
+
+---
+
+## ⭐ Resultado final
+
+Este projeto representa não apenas um resumo sobre educação financeira, mas um registro do **processo de aprendizagem utilizando IA de forma crítica e estruturada**.
+
+A principal lição obtida durante o desenvolvimento pode ser resumida em:
+
+> **A IA pode ajudar a encontrar, organizar e explorar conhecimento. Pensar criticamente sobre o que ela apresenta continua sendo responsabilidade humana.**
